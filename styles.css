@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
+
+body{
+    text-align: center;
+    color: #eceae8;
+    font-size: 2vw;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+.first{
+    filter: drop-shadow(15px 7px 8px #faa9d5);
+}
+
+img{
+    margin: 7% 0 1% 0;
+    width: 40%;
+}
+
+.door{
+    padding: 0;
+    filter: drop-shadow(15px 7px 8px #faa9d5);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.door:hover{
+    filter: drop-shadow(10px 7px 4px #faa9d5);
+    padding: 1vw 0 0 1vw;
+}
+
+.info{
+    display: none;
+}
+
+#menu{
+    padding-top: 2vw;
+}
+
+a{
+    color: #eceae8;
+    padding-right: 1vw;
+}

@@ -1,0 +1,121 @@
+body{
+    text-align: left;
+    font-size: 1.2vw;
+}
+
+
+.dtldoor{
+    margin: 5vw 4vw;
+    width: 20%;
+    float: left;
+}
+
+.dtldoor:hover{
+    padding: 0.5vw 0 0 0.5vw;
+}
+
+.intro{
+    font-size: 1.2vw;
+    padding: 3vw 5vw;
+    /* width: 92%; */
+}
+
+#menu a {
+    color: #eceae8;
+    font-size: 2vw;
+}
+
+#menu {
+    padding-top:3vw;
+}
+
+
+.first{
+    width: 96%;
+    margin: 2% 2%;
+    filter: drop-shadow(0 0 0);
+}
+
+
+.top{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.mid{
+    width: 82%;
+    margin: 0 9%;
+}
+
+.mid:after, .mid:before{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.bubble{
+    background-color: white;
+    color: #A4A190;
+    margin: 0 8% 6% 0;
+    border-radius: 5vw;
+    padding: 5vw;
+    box-shadow: inset 0vw 0vw 10vw 5vw #faa9d5;
+    transition: all 1s ease;
+    opacity: 60%
+}
+
+.bubble:hover{
+    background-color: white;
+    width: 31%;
+    box-shadow: inset 0vw 0vw 5vw 3vw #faa9d5;
+    transition: all 1s ease;
+    opacity: 100%
+}
+
+.about{
+    float: left;
+    width: 25%;
+}
+
+.about:hover{
+    width: 88%;
+}
+
+.contact{
+    width: 35%;
+    float: left;
+    margin-right: 0;
+}
+
+.contact:hover{
+     width: 41%;
+}
+
+.colla{
+    width: 41%;
+    float: left;
+    margin-right: 0;
+}
+
+.colla:hover{
+    width: 25%;
+    float: left;
+}
+
+.title{
+    font-size: 2vw;
+}
+
+.map{
+    width: 90%;
+    padding: 0 5%;
+}
+
+li{
+    list-style-type: circle;
+}
+
+a{
+    color: #A4A190;
+}
+
