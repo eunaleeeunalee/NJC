@@ -1,11 +1,12 @@
 body{
     text-align: left;
     font-size: 1.2vw;
+    line-height: 2.4vw;
 }
 
 
 .dtldoor{
-    margin: 5vw 4vw;
+    margin: 3.5vw 4vw;
     width: 20%;
     float: left;
 }
@@ -18,6 +19,10 @@ body{
     font-size: 1.2vw;
     padding: 3vw 5vw;
     /* width: 92%; */
+}
+
+.navigater{
+    display: none;
 }
 
 #menu a {
@@ -66,7 +71,6 @@ body{
 
 .bubble:hover{
     background-color: white;
-    width: 31%;
     box-shadow: inset 0vw 0vw 5vw 3vw #faa9d5;
     transition: all 1s ease;
     opacity: 100%
@@ -104,6 +108,11 @@ body{
 
 .title{
     font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+em{
+    font-size: 1.4vw;
 }
 
 .map{
@@ -119,3 +128,70 @@ a{
     color: #A4A190;
 }
 
+@media (max-width: 480px) {
+    body{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .top{
+        margin: 7% 5%;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .dtldoor{
+        margin: 3.5vw 7vw 3.5vw 4vw;
+        width: 30%;
+        float: left;
+    }
+
+    .navigater{
+        display: block;
+    }
+
+    #menu{
+        padding-top: 2vw;
+    }
+
+    #menu a{
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .intro{
+        display: none;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .title{
+        font-size: 14px;
+    }
+
+    em{
+        font-size: 13px;
+    }
+
+    .bubble{
+        padding: 7vw;
+        width: 82%;
+    }
+
+    .about, .colla, .contact{
+        width: 82%;
+        margin: 4% 0;
+    }
+
+    .about:hover, .colla:hover, .contact:hover{
+        width: 82%;
+        margin: 4% 0;
+    }
+
+    img{
+        margin-top: 3vw;
+    }
+
+  }
